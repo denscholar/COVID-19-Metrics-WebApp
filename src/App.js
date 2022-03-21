@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h2>Hello covid 19 metrics</h2>
+      <h2>This is COVID 19 METRIC APP</h2>
     </div>
   );
 }
