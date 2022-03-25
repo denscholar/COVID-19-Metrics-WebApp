@@ -3,7 +3,7 @@
 exports[`App Renders Correctly 1`] = `
 <div>
   <div
-    className="sc-dkPtRN dkKlmu container-fluid"
+    className="sc-dkPtRN dmaGeM container-fluid"
   >
     <div
       className="row"
@@ -57,7 +57,7 @@ exports[`App Renders Correctly 1`] = `
             </li>
           </ul>
           <p>
-            Last Updated:
+            Last Update:
              
             Invalid Date
           </p>

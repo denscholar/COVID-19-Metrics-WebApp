@@ -14,7 +14,7 @@ exports[`App Renders Correctly 1`] = `
     }
   >
     <a
-      className="sc-pVTFL hzfIr"
+      className="sc-furwcr bTtehQ"
       href="/"
       onClick={[Function]}
     >
@@ -42,7 +42,7 @@ exports[`App Renders Correctly 1`] = `
   </nav>
   <div>
     <div
-      className="sc-iCfMLu bBlEFp container-fluid"
+      className="sc-iCfMLu kQOaNn container-fluid"
     >
       <div
         className="row"
@@ -96,7 +96,7 @@ exports[`App Renders Correctly 1`] = `
               </li>
             </ul>
             <p>
-              Last Updated:
+              Last Update:
                
               Invalid Date
             </p>
