@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders Correctly 1`] = `
+<div>
+  <div
+    className="sc-dkPtRN dkKlmu container-fluid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <div>
+          <h4>
+            Global COVID-19 Metrics
+          </h4>
+          <ul>
+            <li>
+              Active:
+               
+              <span
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                
+              </span>
+            </li>
+            <li>
+              Deaths:
+               
+              <span
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                
+              </span>
+            </li>
+            <li>
+              Recovered:
+               
+              <span
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                
+              </span>
+            </li>
+          </ul>
+          <p>
+            Last Updated:
+             
+            Invalid Date
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav
+    className="input"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search country cases"
+      type="search"
+    />
+  </nav>
+  <div
+    className="country-list"
+  />
+</div>
+`;

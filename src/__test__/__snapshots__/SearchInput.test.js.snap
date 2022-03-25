@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders Correctly 1`] = `
+<nav
+  className="input"
+>
+  <input
+    placeholder="Search country cases"
+    type="search"
+  />
+</nav>
+`;

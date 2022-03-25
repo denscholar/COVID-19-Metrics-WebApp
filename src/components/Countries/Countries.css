@@ -1,0 +1,6 @@
+.country-list {
+  display: grid;
+  min-height: 13rem;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
