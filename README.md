@@ -27,14 +27,10 @@ To explore or play with this code you should :
 - Webpack
 - GitHub
 
-## Video Link
-
-https://user-images.githubusercontent.com/48631109/160215286-13afe66e-3e25-4615-8a44-55b8fbefff6a.mp4
-
 
 ## Demo Link
 
-[Demo](https://visionary-lily-54d6da.netlify.app/)
+[Demo](https://playful-profiterole-dfb055.netlify.app)
 
 
 ## Author
