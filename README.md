@@ -33,6 +33,7 @@ To explore or play with this code you should :
 [Demo](https://playful-profiterole-dfb055.netlify.app)
 
 
+
 ## Author
 
 ## Dennis Akagha
@@ -53,6 +54,7 @@ Please give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Nelson Sakwa who designed the original UI on Behance.
+- disease.sh Docs for making us of their API - https://disease.sh/docs/#/
 - Hat tip to anyone contributed one way or the other.
 - Inspiration
 - etc
