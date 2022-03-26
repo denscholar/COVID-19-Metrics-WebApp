@@ -1,0 +1,19 @@
+.input {
+  padding: 5px 20px;
+  background-color: #f43659;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+  align-items: center;
+  align-content: center;
+}
+
+nav input {
+  width: 40%;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+}

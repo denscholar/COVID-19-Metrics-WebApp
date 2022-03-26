@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders Correctly 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="input"
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <a
+      className="sc-furwcr bTtehQ"
+      href="/"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M6.5 10h-2v7h2v-7zm6 0h-2v7h2v-7zm8.5 9H2v2h19v-2zm-2.5-9h-2v7h2v-7zm-7-6.74L16.71 6H6.29l5.21-2.74m0-2.26L2 6v2h19V6l-9.5-5z"
+        />
+      </svg>
+    </a>
+    <h2
+      style={
+        Object {
+          "color": "white",
+          "fontSize": "1.5rem",
+        }
+      }
+    >
+      COVID-19 METRICS
+    </h2>
+  </nav>
+  <div>
+    <div
+      className="sc-iCfMLu kQOaNn container-fluid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div>
+            <h4>
+              Global COVID-19 Metrics
+            </h4>
+            <ul>
+              <li>
+                Active:
+                 
+                <span
+                  style={
+                    Object {
+                      "color": "white",
+                    }
+                  }
+                >
+                  
+                </span>
+              </li>
+              <li>
+                Deaths:
+                 
+                <span
+                  style={
+                    Object {
+                      "color": "white",
+                    }
+                  }
+                >
+                  
+                </span>
+              </li>
+              <li>
+                Recovered:
+                 
+                <span
+                  style={
+                    Object {
+                      "color": "white",
+                    }
+                  }
+                >
+                  
+                </span>
+              </li>
+            </ul>
+            <p>
+              Last Update:
+               
+              Invalid Date
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav
+      className="input"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Search country cases"
+        type="search"
+      />
+    </nav>
+    <div
+      className="country-list"
+    />
+  </div>
+</div>
+`;

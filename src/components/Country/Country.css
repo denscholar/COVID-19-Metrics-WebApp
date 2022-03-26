@@ -1,0 +1,24 @@
+.country-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f31f46;
+  width: 100%;
+  min-height: 13rem;
+  position: relative;
+  padding: 25px;
+  cursor: pointer;
+  border: 1px solid rgba(206, 204, 204, 0.144);
+}
+
+.country-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.country-container a:hover {
+  color: black;
+}
+
+.country-container:nth-child(even) {
+  opacity: 0.9;
+}
