@@ -56,6 +56,7 @@ Please give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Nelson Sakwa who designed the original UI on Behance.
 - Hat tip to anyone contributed one way or the other.
 - Inspiration
 - etc
