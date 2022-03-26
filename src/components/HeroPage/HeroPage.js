@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-vars */
 import styled from 'styled-components';
 import CountUp from 'react-countup';
 import { Container, Col, Row } from 'react-bootstrap';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchGlobalCase } from '../../redux/covid/Covid';
 
 const Wrapper = styled(Container)`
     width: 100%;
@@ -38,15 +41,19 @@ const Wrapper = styled(Container)`
 `;
 
 const HeroPage = () => {
-  const [worldData, setWorldData] = useState([]);
+  const global = useSelector((state) => state.globalCase);
+  const dispatch = useDispatch();
   const fetchWorldData = async () => {
     const res = await fetch('https://disease.sh/v3/covid-19/all');
     const data = await res.json();
-    setWorldData(data);
+    dispatch(fetchGlobalCase(data));
   };
-  const lastUpdated = new Date(parseInt(worldData.updated, 10)).toString();
+  const lastUpdated = new Date(parseInt(global.updated, 10)).toString();
 
   useEffect(() => {
+    if (!global) {
+      <h2> its Loading</h2>;
+    }
     fetchWorldData();
   }, []);
 
@@ -58,12 +65,13 @@ const HeroPage = () => {
             <div>
               <h4>Global COVID-19 Metrics</h4>
               <ul>
+                {}
                 <li>
                   Active:
                   {' '}
                   <CountUp
                     start={0}
-                    end={worldData.active}
+                    end={global.active}
                     duration={2.75}
                     separator=","
                     style={{ color: 'white' }}
@@ -74,7 +82,7 @@ const HeroPage = () => {
                   {' '}
                   <CountUp
                     start={0}
-                    end={worldData.deaths}
+                    end={global.deaths}
                     duration={2.75}
                     separator=","
                     style={{ color: 'white' }}
@@ -85,7 +93,7 @@ const HeroPage = () => {
                   {' '}
                   <CountUp
                     start={0}
-                    end={worldData.recovered}
+                    end={global.recovered}
                     duration={2.75}
                     separator=","
                     style={{ color: 'white' }}
